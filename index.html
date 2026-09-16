@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Preeti!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="welcome-page">
+    <canvas id="sakura-canvas"></canvas>
+    <div id="balloon-shower" aria-hidden="true"></div>
+    <section id="heart-gate" class="heart-gate" aria-labelledby="heart-title">
+        <div class="heart-content">
+            <p class="heart-eyebrow">A little surprise for you</p>
+            <h1 id="heart-title" class="text-4xl md:text-6xl font-anime">Tap the heart</h1>
+            <button id="heart-target" class="heart-target" type="button" aria-label="Open your birthday surprise">
+                <span class="heart-ring" aria-hidden="true"></span>
+                <img src="img/red-heart-icon-on-a-white-background-free-vector.jpg" alt="Red heart birthday surprise">
+                <span class="heart-sparkle heart-sparkle-one" aria-hidden="true">✦</span><span
+                    class="heart-sparkle heart-sparkle-two" aria-hidden="true">✧</span>
+            </button>
+            <p id="heart-prompt" class="heart-prompt" role="status" aria-live="polite">Hit the glowing heart to unlock
+                your surprise</p>
+        </div>
+    </section>
+
+    <section id="cake-welcome"
+        class="cake-welcome hero-view relative flex items-center justify-center overflow-hidden" hidden>
+        <div class="text-center z-10 p-4" data-aos="fade-in" data-aos-duration="1500">
+            <h2 class="text-5xl md:text-7xl font-anime drop-shadow-lg">Happy Birthday, Preeti!</h2>
+            <p class="mt-4 text-xl font-semibold">Celebrating a wonderful journey...</p>
+            <div class="mt-6 flex flex-col items-center">
+                <div class="cake-celebration-layout">
+                    <img class="cake-bear-gif cake-bear-gif-left" src="https://media1.tenor.com/m/9u-ABExVEtkAAAAd/vibe-bear.gif"
+                        alt="Two teddy bears dancing together" loading="lazy">
+                    <div class="cake-scene" aria-label="A birthday cake with a lit candle">
+                        <div class="cake-plate"></div>
+                        <div class="cake cake-bottom"><span></span><span></span><span></span></div>
+                        <div class="cake cake-top"><span></span><span></span><span></span></div>
+                        <div class="candle-wrap">
+                            <div class="flame" id="candle-flame" aria-hidden="true"><i></i></div>
+                            <div class="candle"><b></b><b></b><b></b></div>
+                            <div class="smoke" aria-hidden="true"><i></i><i></i></div>
+                        </div>
+                        <div class="cake-sparkles" aria-hidden="true">✦ <span>✧</span> ✦</div>
+                    </div>
+                    <img class="cake-bear-gif cake-bear-gif-right" src="https://media1.tenor.com/m/FfOmbzsJDMsAAAAd/cony-and-brown-star.gif"
+                        alt="Cony and Brown playing with a star" loading="lazy">
+                </div>
+                <p id="blow-countdown" class="blow-countdown" role="status" aria-live="polite">Ready when you are. Start
+                    the candle blow</p><button id="blow-candle-button" type="button"
+                    class="mt-4 rounded-full bg-white px-6 py-3 font-anime text-sakura shadow-lg transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-white/70">Blow
+                    Candle Now</button>
+            </div>
+            <nav id="cake-navigation" class="page-nav" aria-label="Birthday story navigation" hidden><a
+                    href="letter.html" class="page-nav-link page-nav-next">Continue</a></nav>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
