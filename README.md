@@ -1,6 +1,6 @@
 # Happy Birthday Surprise Website
 
-A personalized birthday celebration website made for Preeti, featuring an interactive surprise journey with animated visuals, emotional messages, photo gallery, and a heartfelt finale.
+A personalized birthday celebration website featuring an interactive surprise journey with animated visuals, emotional messages, a photo gallery, and a heartfelt finale.
 
 This project is built as a static web experience using HTML, CSS, and JavaScript, with a soft romantic theme, sakura animation, balloons, music, and multi-page storytelling that feels like a digital birthday gift.
 
