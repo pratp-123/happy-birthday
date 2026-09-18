@@ -66,23 +66,13 @@ happy-birthday/
 
 ## ▶️ How to Run
 
-Since this is a static website, you can open it directly in a browser:
+This is a simple static webpage, so you can run it by opening the project directly in a browser:
 
-1. Clone or download the project.
-2. Open the folder in your browser or launch a local web server.
-3. Navigate to `index.html`.
+1. Download or clone the project.
+2. Open the folder containing the files.
+3. Double-click `index.html` or open it in your browser.
 
-For example, using a local server:
-
-```bash
-python -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000
-```
+You can also use a browser's file-open option and select `index.html`.
 
 ## 🎨 Customization
 
@@ -100,6 +90,10 @@ You can personalize the project by editing:
 - The project uses remote CDNs for fonts, stylesheet, and animation libraries.
 - Some features require browser permissions for audio playback.
 - Images and media are stored in the `img/` folder and audio under `background sound/`.
+
+## 📬 Contact
+
+For questions or collaboration, contact: prateekchauhan923@gmail.com
 
 ## 🏁 Purpose
 
